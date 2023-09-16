@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestaSangam-SignUp</title>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    font-family: 'Righteous';
+    justify-content: right;
+    align-items:right;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+
+}
+
+*{
+    padding:3px;
+    box-sizing: border-box;
+
+}
+    form {
+        justify-content: center;
+        border-radius: 25px;
+        border: 3px solid #3400df;
+        width: 400px;
+        height: 500px;
+        padding: 5px;
+
+    }
+.h2{
+        text-align: center;
+        align-items: center;
+        color: black;
+        font-size: 15px;
+        text-decoration: underline;
+        font-family: 'Righteous';
+
+ }
+.profile_info {
+  padding: 10px 20px;
+  text-align: center;
+}
+.profile_info .profile_img {
+  width: 105px;
+  margin: 0 auto ;
+  
+}
+
+.profile_info .profile_img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 15px;
+
+}
+ .profile_info .profile_data .name {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 47, 255);
+  text-decoration: underline;
+}
+button {
+    background-color: rgb(50, 60, 44);
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Righteous';
+        padding: 14px 20px;
+        margin: 8px ;
+        border: none;
+        cursor: pointer;
+        height: 60px;
+        width: 85%;
+        border-radius: 20px;
+    }
+    /*  hover effect for the button*/
+    
+    button:hover {
+        opacity: 0.8;
+        background-color: orange;
+    }
+
+form .h5{
+    margin: 1px;
+    font-size: 15px;
+    font-family: 'Righteous';
+    text-align: center;
+    margin-left: 75%;
+}
+</style>
+<body>
+    <form action="#">
+        <div class="profile_info">
+            <div class="profile_img"><img src="besta2.png" alt="profile_img"> </div>
+            <div class="profile_data"><h1 class="name">Besta Sangam</h1></div>
+        </div>
+        <h2 >Sign Up With ...</h2><hr>
+		<button type="submit" onClick=" Gmail_login()" id="button"> Login with Gmail</button>
+		<button type="submit" onclick=" Mobile_Login()" id="button">Mobile Number</button>
+        <h5 style="font-size: 15px; text-align: center; color: rgb(4, 33, 255);">Developed By</h5>
+        <h5 style="font-size: 20px; text-align: center;color: rgb(4, 33, 255);">B.M.H</h5>
+
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+
+margin: 0px;
+box-sizing: border-box;
+align-items: center;
+margin: auto;
+
+}
+
+*{
+    padding:3px;
+    box-sizing: border-box;
+
+}
+    form {
+        justify-content: center;
+        border-radius: 25px;
+        border: 1px solid #000;
+        width: 550px;
+        height: auto;
+        padding: 20px;
+
+    }
+    form h2{
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 25px;
+        text-decoration: underline;
+        font-family: 'Righteous';
+
+
+    }
+    
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+    /*set a style for the buttons*/
+    
+    button {
+        background-color: #09820d;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 25px;
+
+    }
+
+.cnl-btn{
+    background-color:rgb(219, 9, 9);
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 25px;
+  
+    
+}
+.gmail-btn{
+        background-color:rgb(41, 41, 191);
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 25px;
+
+    }
+
+.mobile-btn{
+    background-color:rgb(1, 5, 254);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+    /*  hover effect for the button*/
+    
+    button:hover {
+        opacity: 0.8;
+        background-color: rgb(41, 41, 191);
+    }
+  
+    /*centre the display image inside the container*/
+    
+    .imgcontainer {
+
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+    /*image properties*/
+    
+    img.avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 25%;
+    }
+    /*set padding to the container*/
+    
+    .container {
+        padding: 16px;
+    }
+    /*set the forgot password text*/
+    
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+    /*set styles for span and cancel button on small screens*/
+    
+    @media screen and (max-width: 550px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+    .cancelbtn {
+            width: 100%;
+        }
+        .imgcontainer{
+            margin: auto;
+            width: 180px;
+            height: 180px;
+        }
+    }
+
+
+    .btn-group button {
+        background-color: #04AA6D; /* Green background */
+        border: 1px solid green; /* Green border */
+        color: white; /* White text */
+        padding: 10px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group button:hover {
+        background-color: #3e8e41;
+      }

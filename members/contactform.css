@@ -1,0 +1,52 @@
+* {
+    margin: 5px;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#3f8ee3, #005aba);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline 3px solid #005aba;
+
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 100vh;
+    margin: 5% auto;
+    padding: 10px;
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.container form {
+    width: 1200px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+
+
+button {
+    color: white;
+    background-color: #005aba;
+    width: 150px;
+    height: 50px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 80%;
+    margin-top: 5%;
+    border-radius: 15px;
+}

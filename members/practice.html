@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript practice</title>
+    <script src="practice.js"></script>
+</head>
+
+<body>
+    <h1>what is there in ur mind </h1>
+
+    <p>Mahesh inner feeling</p>
+    <form>
+        <input type="button" value="click" onclick="msg()" />
+    </form>
+
+
+    <script>
+
+        const $name = {
+            fname: 'mahesh',
+            lname: 'bandaru',
+
+
+        }
+
+        const age = {
+            age: 29,
+        }
+        const edu = {
+            college: 'IIT kharagpur'
+        }
+        const output = Object.assign($name, age, edu);
+
+        console.log(output);
+    </script>
+
+
+</body>
+
+
+</html>
